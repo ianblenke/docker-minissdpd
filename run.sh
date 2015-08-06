@@ -15,4 +15,4 @@ sed -i -e "s/^MiniSSDPd_INTERFACE_ADDRESS=.*\$/MiniSSDPd_INTERFACE_ADDRESS=${INT
 . /etc/default/minissdpd
 
 # This is needed to keep running in the foreground in debug mode
-exec /usr/sbin/minissdpd -i ${INTIFACE} -6 -d
+exec /usr/sbin/minissdpd -i ${INTIFACE} -d
